@@ -11,5 +11,9 @@
     "semi": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": 0
+	"no-console": "off"
+  }
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
