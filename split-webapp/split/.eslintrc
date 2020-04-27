@@ -10,11 +10,8 @@
   "rules": {
     "semi": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "prettier/prettier": 0,
-    "jsx-a11y/label-has-associated-control": ["error", {
-      controlComponents: ["TextField", "CurrencyTextField"],
-    }],
-    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
+    "prettier/prettier": 0
+	"no-console": "off"
   }
   "parserOptions": {
     "sourceType": "module"
